@@ -48,7 +48,7 @@ class Fasta(object):
     
     def __init__(self, file_handle):
         self.seqs = []
-        
+
         if type(file_handle) == gzip.GzipFile:
             self.file_handle = file_handle
 
